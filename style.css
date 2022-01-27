@@ -1,0 +1,37 @@
+body {
+  background-color: yellow;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+}
+button {
+  margin-top: 10px;
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#theUlList {
+  list-style: none;
+  /* visibility: hidden; */
+  color: black;
+  margin-right: 3em;
+}
+
+/* li {
+  transition: all 1s ease;
+} */
+
+/* .hidden {
+  visibility: visible;
+  color: black;
+  transition: all 1s ease;
+} */
